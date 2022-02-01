@@ -5,7 +5,7 @@ let cc = 0; // Chocolate Chip
 let sugar = 0; // Sugar Sprinkle
 
 // SELECTORS
-// (-/+) buttons for Ginger Bread
+
 let minusGb = document.getElementById("minus-gb");
 let addGb = document.getElementById("add-gb");
 let totalGb = document.getElementById("qty-gb");
@@ -41,7 +41,7 @@ addGb.addEventListener("click", () => {
   total= gb +cc+sugar
 totalAll.innerHTML = total
 });
-// (-/+) buttons for Chocolate Chip
+// (-/+) for Chocolate Chip
 minusCc.addEventListener("click", () => {
   cc--;
   totalCc.innerHTML = cc;
@@ -54,7 +54,7 @@ addCc.addEventListener("click", () => {
   total= gb +cc+sugar
 totalAll.innerHTML = total
 });
-// (-/+) buttons for Sugar Cookie
+// (-/+) for Sugar Cookie
 minusSugar.addEventListener("click", () => {
   sugar--;
   totalSugar.innerHTML = sugar;
